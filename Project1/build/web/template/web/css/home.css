@@ -1,0 +1,359 @@
+header {
+    width: 100%;
+    background-color: #343a40!important;
+}
+
+header .package {
+    display: flex;
+    justify-content: space-between;
+    width: 1290px;
+    margin: auto;
+}
+
+header .package .navbar .navbar-expand-sm .bg-dark .navbar-dark {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+header .package .navbar .navbar-expand-sm .bg-dark .navbar-dark .navbar-nav .nav-item:hover a.nav-link {
+    color: red;
+    display: block;
+}
+
+.banner {
+    margin-top: 0px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.banner .package {
+    width: 1245px;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.container {
+    padding-top: 20px;
+    margin: auto;
+}
+
+.container .name {
+    margin-left: -70px;
+    width: 1260px;
+}
+
+.container .name .package {
+    width: 1260px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .name .package .left {
+    background: #ffc700;
+    display: inline-block;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 11px 5px 4px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #1d2129;
+    font-size: 20px;
+    width: 295px;
+}
+
+.container .name .package .right {
+    padding-right: 5px;
+    padding-top: 10px;
+}
+
+.container .name .package .right span {
+    color: #ffc700;
+}
+
+.container .name .package .right span:hover {
+    color: #ff2600;
+}
+
+.container .name .package .right i {
+    color: #ffc700;
+}
+
+.container .name .package .right i:hover {
+    color: #ff2600;
+}
+
+.container .line {
+    margin-left: -70px;
+    width: 1248px;
+    height: 1px;
+    background: #1d2129;
+}
+
+.container .product {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.container .product .list-book {
+    margin: auto;
+    width: 1295px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .product .list-book .row {}
+
+.container .product .list-book .row .book1 {
+    position: relative;
+    width: 240px;
+    height: 200px;
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    transition: all .3s ease;
+    margin: auto;
+    margin-left: -55px;
+    margin-top: 60px;
+    margin-right: 68px;
+}
+
+.container .product .list-book .row .book1 .thumbail>img {
+    height: 200px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: -30px;
+    box-shadow: 0 0 10.32px 1.68px rgba(0, 0, 0, .2);
+}
+
+.container .product .list-book .row .book1 .thumbail {}
+
+.container .product .list-book .row .book1 .deep {
+    position: absolute;
+    opacity: 0;
+    transition: 0.4;
+    border-radius: 5px;
+}
+
+.container .product .list-book .row .book1:hover .deep {
+    opacity: 1;
+    visibility: visible;
+    transition: 0.4s;
+}
+
+.container .product .list-book .row .book1 .deep .book-icon {
+    display: block;
+}
+
+.container .product .list-book .row .book1 .deep a.infor {
+    position: absolute;
+    text-decoration: none;
+    left: 171px;
+    top: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+    display: block;
+    text-transform: uppercase;
+    width: 100px;
+    height: 30px;
+}
+
+.container .product .list-book .row .book1 .deep a.book-icon>img {
+    position: absolute;
+    top: 55px;
+    left: 65px;
+    width: 40px;
+}
+
+.container .product .list-book .row .book1 .caption {
+    margin-left: 4px
+}
+
+.container .product .list-book .row .book1 .caption .title {
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.container .product .list-book .row .book1 .caption .author {
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #888;
+}
+
+.container .product .list-book .row .book1 .caption .title:hover {
+    color: #1ba085!important;
+}
+
+
+/* end */
+
+.container .new-book {
+    margin-top: 20px;
+    width: 1255px;
+    height: 375px;
+    background-color: #fff;
+    margin-left: -70px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2);
+}
+
+.container .new-book .package {
+    padding-top: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .new-book .package .left {
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #1d2129;
+    font-size: 20px;
+}
+
+.container .new-book .package .right {
+    text-decoration: none;
+}
+
+.container .new-book .new-title .package .left {
+    margin-left: -60px;
+}
+
+.container .new-book .package .right {
+    color: #ffc700;
+}
+
+.container .new-book .product1 {
+    margin-top: 10px;
+}
+
+.container .new-book .package .right>a>span :hover {
+    color: #1ba085!important;
+}
+
+.container .new-book .product1 .list-book1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .new-book .product1 .list-book1 .book2 {
+    position: relative;
+    width: 160px;
+    height: 280px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    transition: all .3s ease;
+    margin: auto;
+}
+
+.container .new-book .product1 .list-book1 .book2 .thumbail>img {
+    width: 160px;
+    height: 218px;
+}
+
+.container .new-book .product1 .list-book1 .book2 .book-icon {
+    position: absolute;
+    opacity: 0;
+    transition: 0.4;
+    border-radius: 5px;
+    top: 0px;
+    left: 0px;
+}
+
+.container .new-book .product1 .list-book1 .book2 .book-icon>img {
+    position: absolute;
+    top: 87px;
+    left: 58px;
+    width: 40px
+}
+
+.container .new-book .product1 .list-book1 .book2:hover .book-icon {
+    opacity: 1;
+    visibility: visible;
+    transition: 0.4s;
+}
+
+.container .new-book .product1 .list-book1 .book2 .caption {
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+.container .new-book .product1 .list-book1 .book2 .caption .title {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.container .new-book .product1 .list-book1 .book2 .caption .author {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #888;
+}
+
+.container .new-book .product1 .list-book1 .book2 .caption .title:hover {
+    color: #1ba085!important;
+}
+
+
+/* end */
+
+.footer {
+    margin-top: 10px;
+    height: 183px;
+    background: #222c3796;
+}
+
+.footer .package {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.footer .top1 {
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 15px;
+    width: 25%;
+}
+
+.footer .top1 strong {
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: .5rem;
+    font-weight: bold;
+    line-height: 1.2;
+    font-family: segoe ui light;
+    text-align: center;
+}
+
+.footer .top1 ul {
+    list-style: none;
+    padding-top: 5px;
+    padding-left: 0px;
+}
+
+.footer .top1 ul li {}
+
+.footer .top1 ul li a {
+    text-decoration: none;
+    font-family: segoe ui;
+    font-size: 13px;
+    color: #12181ecb;
+}
+
+.footer .top1 ul li a:hover {
+    transition: 0.4s;
+    color: black;
+}

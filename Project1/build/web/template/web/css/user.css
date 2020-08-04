@@ -1,0 +1,137 @@
+header {
+    width: 100%;
+    background-color: #343a40!important;
+}
+
+header .package {
+    display: flex;
+    justify-content: space-between;
+    width: 1290px;
+    margin: auto;
+}
+
+header .package .navbar .navbar-expand-sm .bg-dark .navbar-dark {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+header .package .navbar .navbar-expand-sm .bg-dark .navbar-dark .navbar-nav .nav-item:hover a.nav-link {
+    color: red;
+    display: block;
+}
+
+.container {
+    padding-top: 20px;
+    margin: auto;
+}
+
+.container .package {
+    width: 1290px;
+    margin: auto;
+    margin-left: -62px;
+}
+
+.container .package .top {
+    width: 1290px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.container .package .top>h1 {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container .package .line {
+    width: 1240px;
+    height: 0.5px;
+    background-color: gray;
+}
+
+.container .package .top .banner {
+    margin-top: 10px;
+}
+
+.container .package .infor {
+    margin-top: 10px;
+}
+
+.container .package .infor>h2 {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container .package .infor .top2 {
+    display: flex;
+    margin-top: 10px;
+}
+
+.container .package .infor .top2 .avatar {
+    width: 130px;
+    height: 120px;
+}
+
+.container li {
+    list-style: none;
+}
+
+.container li>span {
+    color: gray;
+    font-weight: 500;
+}
+
+
+/* end */
+
+.footer {
+    margin-top: 10px;
+    height: 183px;
+    background: #222c3796;
+}
+
+.footer .package {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.footer .top1 {
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 15px;
+    width: 25%;
+}
+
+.footer .top1 strong {
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: .5rem;
+    font-weight: bold;
+    line-height: 1.2;
+    font-family: segoe ui light;
+    text-align: center;
+}
+
+.footer .top1 ul {
+    list-style: none;
+    padding-top: 5px;
+    padding-left: 0px;
+}
+
+.footer .top1 ul li {}
+
+.footer .top1 ul li a {
+    text-decoration: none;
+    font-family: segoe ui;
+    font-size: 13px;
+    color: #12181ecb;
+}
+
+.footer .top1 ul li a:hover {
+    transition: 0.4s;
+    color: black;
+}
